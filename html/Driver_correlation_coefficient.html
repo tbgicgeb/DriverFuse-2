@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Driver_correlation_coefficient</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Driver_correlation_coefficient {DriverFuse}"><tr><td>Driver_correlation_coefficient {DriverFuse}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Driver_correlation_coefficient</h2>
+
+<h3>Description</h3>
+
+<p>It plots the correlation coefficient between mapping structural variant and copy number variation profile for a given input fusion gene.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+Driver_correlation_coefficient(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>fusion gene</p>
+</td></tr>
+<tr valign="top"><td><code>y</code></td>
+<td>
+<p>svc.df used for mapping fusion genes coordinates to structural variants</p>
+</td></tr>
+<tr valign="top"><td><code>z</code></td>
+<td>
+<p>CNV segementation table used for mapping fusion gene coordinates to there segmentation profile</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>It reports the correlation coeffcient of structural variant and copy number varaition for given input fusion gene.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+Driver_correlation_coefficient("MYH9-EIF3D")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DriverFuse</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

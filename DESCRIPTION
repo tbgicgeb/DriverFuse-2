@@ -1,0 +1,13 @@
+Package: DriverFuse
+Type: Package
+Title: Next generation sequencing datasets analysis
+Version: 0.1.0
+Author: Shikha Roy & Dr. Dinesh Gupta
+Maintainer: The package maintainer <royshikha.sd@gmail.com>
+Description: DriverFuse aims to become instrumental in the study of Driver fusion genes in cancer genomics, enabling the identification of recurrent complex rearrangements that may pinpoint disease driver events. Here,we implement the methodological framework into an R package incorporating multiple functionalities to integrate orthogonal data types such as SV and CNV and characterize fusion gene in breast cancer datasets.     
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Built: R 3.6.0; ; 2021-03-13 18:48:01 UTC; unix
