@@ -17,12 +17,12 @@ datasets.This toolset allows the research community to easily perform
 complex analysis of high throughput profiling data and will support
 extensions to further integrate analyses of other types of omics data.
 
-input\_svc creates input structural varaint file for a user sample data
+input\_svc creates input structural variant file for a user sample data
 that is used for mapping fusion gene to find out whether it is “Driver”
 or “Passenger” fusion gene.
 
 input\_cnv creates input copy number variation file for a user sample
-data that is used for mapping fusion gene to find out out whether it is
+data that is used for mapping fusion gene to find out whether it is
 “Driver” or “Passenger” fusion gene.
 
 input creates localization of breakpoints with respect to known genes.
@@ -46,7 +46,7 @@ that are mapping to genomic coordinates of input fusion genes.
 
 Driver\_domain provides genomic feature annotation tools for driver
 fusion gene. Exploring domain level landscape of fusion gene is
-important to identify gene role in cancer progresssion.
+important to identify gene role in cancer progression.
 
 ## Installation
 
