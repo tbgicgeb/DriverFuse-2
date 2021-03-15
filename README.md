@@ -12,20 +12,20 @@ fusion genes in cancer genomics, enabling the identification of
 recurrent complex rearrangements that may pinpoint disease driver
 events. Here,we implement the methodological framework into an R package
 incorporating multiple functionalities to integrate orthogonal data
-types such as SV and CNV and characterize fusion gene in breast cancer
-datasets.This toolset allows the research community to easily perform
+types such as SV and CNV and characterise fusion gene in breast cancer
+datasets.This toolset allows the research community to perform
 complex analysis of high throughput profiling data and will support
 extensions to further integrate analyses of other types of omics data.
 
-input\_svc creates input structural variant file for a user sample data
-that is used for mapping fusion gene to find out whether it is “Driver”
+input\_svc creates an input structural variant file for a user sample data, to be
+used for mapping fusion gene to determine if it is a “Driver”
 or “Passenger” fusion gene.
 
-input\_cnv creates input copy number variation file for a user sample
-data that is used for mapping fusion gene to find out whether it is
+input\_cnv creates an input copy number variation file for a user sample
+data to be used for mapping fusion genes to determine if it is a
 “Driver” or “Passenger” fusion gene.
 
-input creates localization of breakpoints with respect to known genes.
+input creates localisation of breakpoints for respect to known genes.
 The annotation identifies small segmental variants overlapping with
 genes.
 
@@ -33,7 +33,7 @@ Driver\_result classifies input fusion gene into “Driver” or “Passenger”
 fusion gene based on mapping coordinates in structural variant and copy
 number variation.
 
-Driver\_object creates object of input fusion gene based on their
+Driver\_object creates an object of input fusion gene based on their
 mapping structural variant and copy number variation.
 
 Driver\_correlation\_coefficient plots the correlation coefficient
@@ -45,7 +45,7 @@ fusion transcripts. It plots the CNV profile and structural variants
 that are mapping to genomic coordinates of input fusion genes.
 
 Driver\_domain provides genomic feature annotation tools for driver
-fusion gene. Exploring domain level landscape of fusion gene is
+fusion gene. Exploring te domain-level landscape of fusion gene is
 important to identify gene role in cancer progression.
 
 ## Installation
